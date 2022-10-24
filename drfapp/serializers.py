@@ -10,4 +10,4 @@ from drfapp.models import Students
 class StudentsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Students
-        fields = ['id', 'first_name', 'last_name', 'age', 'gender', 'course']
+        fields = "__all__"
